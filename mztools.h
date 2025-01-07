@@ -11,10 +11,6 @@
 extern "C" {
 #endif
 
-#ifndef _ZLIB_H
-#include "zlib.h"
-#endif
-
 #include "unzip.h"
 
 /* Repair a ZIP file (missing central directory)
